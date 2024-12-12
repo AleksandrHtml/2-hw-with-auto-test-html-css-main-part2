@@ -148,7 +148,6 @@ select {
 
 table {
     /* Стили для таблицы */
-    width: 300px;
     font-weight: 400;
     font-size: 14px;
     border-collapse: collapse;
