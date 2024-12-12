@@ -1,41 +1,77 @@
 * {
     /* Свойства для сброса начальных стилей элементов */
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {}
 
 header {
     /* Стили для хедера */
+    background: #2965f1;
 }
 
 header span {
     /* Стили для текста в хедере IT-INCUBATOR */
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    padding: 23px 0;
 }
 
 .main-section {
     /* Стили для первой секции */
+    padding: 60px 0;
+    min-height: 100vh;
+    background: #fafaff;
 }
 
 .main-title {
     /* Стили для заголовка в первой секции */
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
+    margin-bottom: 20px;
 }
 
 .main-text {
     /* Стили для текста в первой секции */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #303030;
 }
 
 .main-image {
     /* Стили для изображения в первой секции */
+    max-width: 715px;
 }
 
 
 .about-section {
     /* Стили для второй секции */
+    background-color: #fff;
+    padding: 100px 0;
 }
 
 select {
     /* Стили для выпадающего списка */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 150px;
+    padding: 9px 87px 8px 12px;
+    background-image: url(assets/img/arrow-down.svg);
+    background-repeat: no-repeat;
+    background-position: right 10px  top 50%;
+    appearance: none;
 }
 
 .section-title {
